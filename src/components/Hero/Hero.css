@@ -27,3 +27,14 @@
   width: 20px;
   margin-left: 10px;
 }
+
+/* Media Query */
+@media (max-width: 650px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-text p {
+    margin: 20px auto 40px;
+    line-height: 1.4;
+  }
+}
